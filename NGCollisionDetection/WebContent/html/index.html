@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript"
+	src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.0/angular.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body data-ng-app="collssionApp" data-ng-controller="collisionController">
+	<button id="left" data-ng-click="leftClicked()">left</button>
+	<button id="right" data-ng-click="rightClicked()">right</button>
+	<button id="up" data-ng-click="upClicked()">up</button>
+	<button id="down" data-ng-click="downClicked()">down</button>
+
+	<div class="block"></div>
+	<div class="bomb"></div>
+
+</body>
+</html>
